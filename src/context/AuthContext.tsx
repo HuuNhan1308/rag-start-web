@@ -1,5 +1,5 @@
 import { createContext, useContext, useState, useEffect, type ReactNode } from 'react';
-import { getToken, setToken as saveToken, removeToken, isAuthenticated as checkAuth } from '../services/authService';
+import { getToken, setToken as saveToken, removeToken } from '../services/authService';
 
 interface AuthContextType {
   isAuthenticated: boolean;
